@@ -63,7 +63,7 @@ syntax enable
 set t_Co=256
 
 " Color scheme and background
-colorscheme molokai
+colorscheme vividchalk
 "set background=dark
 
 " UTF-8

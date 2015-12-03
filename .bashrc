@@ -17,7 +17,7 @@ MINUTE=-1
 AM_PM=""
 
 # do some datetime formatting stuff
-HOUR=$(date +"%H")
+HOUR=$(date +"%k")
 DATETIME=$(date +"%A, %B %e, %Y -- %r")
 
 # set up greeting
@@ -58,7 +58,7 @@ extract() {
 }
 
 
-# my stupid aliases
+# stupid aliases
 alias bitch='sudo'
 alias shit='ls'
 alias fuck='cd'
@@ -66,7 +66,7 @@ alias cock='vim'
 alias penis='python'
 alias fuckyou='cd ~'
 
-# my not so stupid aliases
+# not so stupid aliases
 alias ..='cd ..'
 alias rm='rm -i'
 alias cp='cp -i'
@@ -75,3 +75,5 @@ alias home='cd ~'
 alias mysql_friendsy="mysql -h friendsydbfinal.cy4f86llzvbc.us-east-1.rds.amazonaws.com -u blake -p"
 alias turn_off_ipv6="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1"
 alias turn_on_ipv6="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0"
+alias oops='sudo $(history -p \!\!)'
+alias analogy='python /home/marco/Documents/projects/reddit-word2vec/src/analogy.py'
