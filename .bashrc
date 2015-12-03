@@ -72,7 +72,6 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias home='cd ~'
-alias mysql_friendsy="mysql -h friendsydbfinal.cy4f86llzvbc.us-east-1.rds.amazonaws.com -u blake -p"
 alias turn_off_ipv6="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1"
 alias turn_on_ipv6="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0"
 alias oops='sudo $(history -p \!\!)'
